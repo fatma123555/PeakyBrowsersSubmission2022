@@ -1,0 +1,86 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .container .TaskInfoModal {
+    z-index: 1;
+    width: 40%;
+    min-height: fit-content;
+    max-height: 90%;
+    background-color: white;;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: relative;
+    animation: animate 0.3s;
+    border: 2px solid #005bbb;
+    border-radius: 25px;
+  }
+  .TaskInfoModal .modalButton {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #005bbb;
+    border: none;
+    background: none;
+    font-size: 40px;
+  }
+  
+  .TaskInfoModal .modalButton:hover {
+    cursor: pointer;
+    color: #003d7f;
+  }
+  
+  .TaskInfoModal .textSection {
+      margin-top:30px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+  }
+
+  .TaskInfoModal .title {
+      color: #005bbb;
+      text-transform: capitalize;
+      font-weight: bold;
+      margin: auto;
+      width: 80%;
+      font-size: 25px;
+      text-align: center;
+  }
+  .TaskInfoModal .description {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: justify;
+  }
+  .TaskInfoModal .dueSection,   .TaskInfoModal .locationSection {
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+      width: fit-content;
+      margin-bottom: 20px;
+      align-items: center;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  .TaskInfoModal .dueSection .clockIcon {
+      font-size: 20px;
+      margin-right: 10px;
+  }
+  
+  .TaskInfoModal .priority {
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-weight: bold;
+  }
+ 

@@ -1,0 +1,215 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.container .newTaskModal {
+  z-index: 1;
+  width: 50%;
+  min-height: fit-content;
+  max-height: 90%;
+  background-color: #f5efd9;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+  animation: animate 0.3s;
+  border: 2px solid #005bbb;
+  border-radius: 25px;
+}
+.newTaskModal .modalButton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #005bbb;
+  border:none;
+  background:none;
+  font-size: 40px;
+}
+
+.newTaskModal .modalButton:hover {
+  cursor: pointer;
+  color: #003d7f;
+}
+
+.newTaskModal .heading {
+  border-bottom: #005bbb solid 2px;
+  margin: 20px;
+  color: #005bbb;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.newTaskModal .form {
+  margin-left: auto;
+  margin-right: auto;
+  width:95%;
+  height: 450px;
+  overflow-y: scroll;
+}
+.newTaskModal .label {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.newTaskModal .textbox {
+  width: 90%;
+  line-height: 30px;
+  border: 2px solid #005bbb;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.newTaskModal .dateBox {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+.newTaskModal #dueDate {
+  width: 30%;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  line-height: 2;
+  border: 2px solid #005bbb;
+  border-radius: 5px;
+}
+
+.newTaskModal .radios {
+  width: 75%;
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.newTaskModal .radio input {
+  accent-color: #005bbb;
+  transform: scale(1.5);
+  margin-right: 15px;
+}
+
+.newTaskModal .radio label {
+  margin-right: 45px;
+}
+
+.newTaskModal .radios-location {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.newTaskModal .radios-location .radio {
+  margin-top: 5px;
+}
+.newTaskModal .location-hidden {
+  padding-right: 20px;
+  margin-top: 10px;
+  /* text-align: left; */
+  justify-content: left;
+  /* display: flex;
+  flex-direction: row; */
+  font-style: italic;
+  display:none;
+}
+
+.newTaskModal .locationTextbox {
+  margin-left: 10px !important;
+  min-width: 30%;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  transform:scale(1) !important;
+  padding: 0;
+  border: 2px solid #005bbb;
+  border-radius: 5px;
+}
+
+#in-person:checked ~ .location-hidden {
+  clear: both;
+  display: flex;
+  flex-direction: row;
+}
+
+.newTaskModal .imageUpload {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+.newTaskModal .imageUpload .files {
+  border: 2px solid #005bbb;
+  border-radius: 5px;
+  max-width: fit-content;
+  padding: 3px;
+  background-color: white;
+}
+.newTaskModal .imageUpload button {
+  background-color: #005bbb;
+  color: white;
+  border: none;
+  border-radius: 25%;
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+.newTaskModal .imageUpload #myFile {
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  line-height: 2;
+}
+
+.newTaskModal .submitButton {
+  display: block;
+  margin: 30px auto;
+  font-size: 75px;
+  color: #ffd500;
+  border: none;
+  padding: 0;
+  background-color: #f5efd9;
+}
+
+.newTaskModal .submitButton:hover {
+  cursor: pointer;
+  color: #e7c100;
+}
+
+.newTaskModal .submittedMessage {
+  margin: 20px;
+  color: #005bbb;
+  font-size: 45px;
+}
+
+.submittedContainer button {
+  font-size: 75px;
+  color: #005bbb;
+  border: none;
+  padding: 0;
+  border-radius: 25px;
+  background-color: #f5efd9;
+  cursor: pointer;
+}
+
+.submittedContainer button:hover {
+  color: #003d7f;
+}
+

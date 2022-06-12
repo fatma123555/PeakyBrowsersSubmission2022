@@ -1,0 +1,36 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(10, 1fr));
+    grid-column-gap:30px;
+    grid-row-gap:30px;
+}
+
+
+.para1 {
+    grid-area: 2 / 4 / 3 / 9; 
+    text-align: left;
+    border-radius: 10px;
+    background-color:#2B90FF;
+    font-size: 20px;
+    padding:25px;
+}
+
+.para2 {
+    grid-area: 3 / 5 / 4 / 10;
+    text-align: left;
+    font-size:20px;
+    background-color: #EDE0C4;
+    border-radius:10px;
+    padding:25px;
+}
+
+
+.man {
+    text-align: left;
+    grid-area: 2 / 1 / 4 / 4; 
+
+}
+.woman {
+    grid-area: 3 / 10 / 6 / 11; 
+}

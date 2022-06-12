@@ -1,0 +1,234 @@
+.Dashboard h1 {
+  text-align: left;
+  margin-top: 3%;
+  margin-left: 40%;
+  font-weight: 100;
+}
+
+.Dashboard h2 {
+  color: white;
+}
+
+.introduction {
+  padding: 0px;
+}
+
+.helloname {
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(75, 75, 75);
+  font-weight: 100;
+}
+
+.Dashboard .wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-radius: 30px;
+  color: #444;
+  width: 100%;
+  margin: auto;
+  margin-bottom: -45px;
+}
+
+.Dashboard .box1 {
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(52, 52, 52);
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.15);
+  margin-left: 70%;
+}
+
+.Dashboard #newTaskImg {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 50px;
+  margin-right: 10%;
+  height: 60px;
+}
+
+.Dashboard #newTaskImg:hover {
+  cursor: pointer;
+  color: #ffe563;
+}
+
+.Dashboard .box2 {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(36, 24, 242);
+  background: linear-gradient(
+    340deg,
+    #554df5ef 0%,
+    rgb(87, 144, 235) 42%,
+    #70e7ff 100%
+  );
+  width: 50%;
+  height: 100%;
+  margin-left: 13%;
+  margin-top: 8%;
+  position: static;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.Dashboard .box2 h2 {
+  color: rgb(53, 53, 53);
+  font-weight: 100;
+  width: 80%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.Dashboard .box3 {
+  position: sticky;
+  border-radius: 20px;
+  grid-area: 1 / 2 / 2 / 4;
+  background-color: white;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: -20%;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 25%;
+  border: 1px solid rgb(215, 215, 215);
+}
+.Dashboard .box3 h2 {
+  margin-bottom: 0;
+  color: rgb(75, 75, 75);
+  font-weight: 100;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.Dashboard .box4 {
+  border-radius: 50px;
+  grid-area: 2 / 2 / 4 / 4;
+  display: flex;
+  flex-direction: column;
+  bottom: 60%;
+  right: 30%;
+  width: 124%;
+  align-items: center;
+  position: relative;
+  align-content: space-around;
+  border: 1px solid rgb(215, 215, 215);
+  background-color: white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.Dashboard .box4 h2 {
+  color: rgb(75, 75, 75);
+  font-weight: 100;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 60%;
+}
+
+.Dashboard .tipSection {
+  width: 90%;
+  margin: auto;
+}
+
+.Dashboard .tipText {
+  width: 100%;
+  float: right;
+  font-size: 16px;
+  margin-top: -40px;
+}
+
+.Dashboard .safetyicon {
+  width: 100%;
+  position: static;
+  color: #ffd500;
+}
+
+/* profile section */
+
+.Dashboard .profileContainer {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Dashboard #avatar {
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  height: 100px;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.15);
+
+}
+
+.Dashboard .username {
+  font-size: 18px;
+}
+.Dashboard .rating {
+  font-size: 18px;
+  color: #444;
+}
+
+.Dashboard .tags {
+  list-style-type: none;
+  border-radius: 25px;
+  border: 2px solid #ede6cb;
+  width: 120px;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f5efd9;
+}
+
+.Dashboard .tags p {
+  margin: 0;
+  margin-left: 10px;
+  color: #594925;
+}
+.Dashboard #UkrFlag {
+  height: 15px;
+  width: 20px;
+  margin: 5px;
+}
+
+.Dashboard #BritishFlag {
+  height: 15px;
+  width: 20px;
+  margin: 5px;
+}
+
+.Dashboard .section4 {
+  font-size: 18px;
+}
+.Dashboard #location {
+  font-size: 20px;
+  color: #ffd500;
+}
+
+.Dashboard #newTaskImg {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 0;
+  color: #005bbb;
+  border: none;
+  font-size: 100px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}

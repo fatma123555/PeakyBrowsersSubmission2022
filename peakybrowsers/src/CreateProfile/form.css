@@ -1,0 +1,78 @@
+.profileForm body {
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+    color: #333;
+    font: 100% / normal sans-serif;
+}
+.profileForm h1 {
+    color: #005bbb;
+    margin: 0px;
+}
+
+
+.profileForm .input-box {
+    background-color: hsl(0, 0%, 96%);
+    border: 1px solid #EDE0C4;
+    margin: 5px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.profileForm .submit-button {
+    padding: 10px;
+    padding-right: 15px;
+    background-color: #2990FF;
+    border: 1px solid #EDE0C4;
+    border-radius: 50%;
+    color: white;
+    margin-bottom: 10%;
+    font-size: 40px;
+    cursor: pointer;
+}
+.profileForm button {
+    background: none;
+    border: none;
+}
+.profileForm .submit-button-disabled {
+    padding: 10px;
+    padding-right: 15px;
+    background-color: #8f9091;
+    border: 1px solid #EDE0C4;
+    border-radius: 50%;
+    color: white;
+    margin-bottom: 10%;
+    font-size: 40px;
+}
+
+.profileForm .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profileForm main {
+    margin: 0 auto;
+    padding: 4rem 0;
+    width: 60%;
+    max-width: 60rem;
+}
+
+.profileForm form {
+    margin: 5% 30% ;
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid #EDE0C4;
+    box-shadow: 0px 0px 20px #aaaa;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.profileForm .full-width {
+    grid-column: span 2;
+}

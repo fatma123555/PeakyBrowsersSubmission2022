@@ -1,0 +1,85 @@
+/* 
+.availableTasks h2 {
+    color: #005BBB;
+    font-size: 25px;
+    margin: 30px;
+} */
+.myAvailableTasks {
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+.myAvailableTasks .taskBox {
+    background-color: #EDE0C4;
+    width: 29.3%;
+    float: left;
+    margin: 2%;
+    height: 220px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    
+}
+
+.myAvailableTasks .taskBox:hover {
+    cursor: pointer;
+    background-color: white;
+transform: translateY(3px);
+}
+
+.myAvailableTasks .userSection {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.myAvailableTasks .nameSection {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.myAvailableTasks .taskBox img {
+    height: 80px;
+    border: solid 1px #ffffff;
+    border-radius:50%;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+        box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.15);
+}
+
+.myAvailableTasks .taskBox .title {
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    white-space: nowrap;
+}
+
+.myAvailableTasks .dueSection {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: fit-content;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.myAvailableTasks .dueSection .clockIcon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.myAvailableTasks .priority {
+    font-size: 20px;
+    margin: 10px;
+}

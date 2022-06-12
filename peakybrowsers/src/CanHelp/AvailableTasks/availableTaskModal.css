@@ -1,0 +1,163 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.container .availableTaskModal {
+  z-index: 1;
+  width: 40%;
+  min-height: fit-content;
+  max-height: 90%;
+  background-color: white;;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+  animation: animate 0.3s;
+  border: 2px solid #005bbb;
+  border-radius: 25px;
+}
+.availableTaskModal .modalButton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #005bbb;
+  border: none;
+  background: none;
+  font-size: 40px;
+}
+
+.availableTaskModal .modalButton:hover {
+  cursor: pointer;
+  color: #003d7f;
+}
+
+.availableTaskModal .box {
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.availableTaskModal .left {
+    width:30%;
+}
+
+.availableTaskModal .right {
+    width:70%;
+}
+
+.availableTaskModal .userSection {
+    display:flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+    border: 1px solid #EDE0C4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #aaaaaa;
+}
+
+.availableTaskModal .userSection img {
+    height: 150px;
+    width: 150px;
+    border: solid 3px #005BBB;
+    border-radius:50%;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.availableTaskModal .nameSection {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.availableTaskModal .name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.availableTaskModal .rating {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d6b300;
+}
+
+.availableTaskModal .textSection {
+    margin:10px;
+}
+.availableTaskModal .title {
+    color: #005bbb;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 25px;
+}
+.availableTaskModal .description {
+    font-size: 20px;
+    margin: 10px;
+    text-align: justify;
+}
+.availableTaskModal .dueSection {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: fit-content;
+    margin-top: 35px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.availableTaskModal .dueSection .clockIcon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.availableTaskModal .priority {
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.availableTaskModal .email {
+    color:#005BBB;
+    font-size: 70px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.availableTaskModal .email:hover {
+    color:#004c9d;
+    transform: translateY(3px);
+}
+
+.availableTaskModal .report {
+    color:red;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 20px;
+    position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+.availableTaskModal .report:hover {
+    color:rgb(180, 0, 0);
+    transform: translateY(3px);
+}

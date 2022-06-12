@@ -1,0 +1,54 @@
+.FAQ h1 {
+  margin: 60px;
+  color: rgb(43, 43, 43)
+}
+
+.FAQ .faq-box {
+  width: 80%;
+  margin: auto;
+}
+
+.FAQ .accordion {
+  list-style: none;
+}
+
+.FAQ .accordion_item {
+  border-top: 1px solid #9f9f9f;
+}
+
+.FAQ .button {
+  font-size: 16px;
+  background-color: #2990ff;
+  color: rgb(43, 43, 43);
+  text-align: left;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 10px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.FAQ .control {
+  font-size: 20px;
+}
+
+.FAQ .answer {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: left;
+}
+
+/* activate toggle */
+.FAQ .accordion_item.active .button {
+  background-color: #004792;
+}
+.FAQ .answer_wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: height ease 0.2s;
+}

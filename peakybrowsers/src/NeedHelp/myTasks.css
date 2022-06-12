@@ -1,0 +1,76 @@
+.myTasks {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.myTasks .taskBox {
+  background-color: #fefefe;
+
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  line-height: 4;
+  justify-content: space-between;
+  box-shadow: 1px 1px 3px rgba(20, 20, 20, 0.35);
+}
+
+.myTasks .taskBox:hover {
+  background-image: linear-gradient(40deg, #fffde3 0%, #ffffff 100%);
+}
+
+.myTasks .taskInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.myTasks .complete {
+  font-size: 45px;
+  margin-left: 10px;
+}
+.myTasks .title {
+  margin-left: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 160px;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.myTasks .dueSection {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.myTasks .clockIcon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.myTasks .priority {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.myTasks .icons {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+} 
+
+.myTasks .icon {
+  color: rgb(53, 53, 53);
+  font-size: 25px;
+  cursor: pointer;
+}
