@@ -1,3 +1,8 @@
+# AccliMATE 🤝 
+
+[![AccliMATE Project Pitch Video](https://img.youtube.com/vi/eorO3OIqeB8/0.jpg)](https://youtu.be/eorO3OIqeB8)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
